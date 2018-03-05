@@ -1,10 +1,10 @@
 # HotSAP
 
-Overview:
+# Overview:
 
 The code has 3 main modules or steps.  One) reduce data from an Echelle Spectrograph to a 1D spectrum. Two) analyze the 1D spectrum for fundemental steallar parameters.  Three) use the 1D spectrum and stellar properties to measure the abundances of certain species.  Each step has been tuned ore developed specifically to handle Hot-type stars (6700 K - 10,000 K) but in a robust way to allow for multiple instruments, data sets, etc.
 
-Dependencies: 
+# Dependencies: 
 
 This code requires several leagacy astronomer codes.
 
@@ -21,3 +21,6 @@ IDL: for uvbybeta.pro from NASA IDL library to compute Stromgren parameters (#TO
 
 Numerous other python modules are required as well, but require significantly less trouble to install.
 
+# References:
+
+For a paper explaining the overall codes methodology, refer to Draper et al. 2018.
